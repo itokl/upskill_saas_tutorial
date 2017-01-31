@@ -74,3 +74,8 @@ h1, h2, h3 {
 .remove-top-margin {
   margin-top: -10px;
 }
+
+//Removing top border on collapsed navbar
+.navbar-collapse {
+  border-top: 0px;
+}
