@@ -79,3 +79,8 @@ h1, h2, h3 {
 .navbar-collapse {
   border-top: 0px;
 }
+
+//hide Signed in/out successfully
+.alert-notice {
+  display: none;
+}
