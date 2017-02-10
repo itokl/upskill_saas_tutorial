@@ -84,7 +84,16 @@ h1, h2, h3 {
   border-top: 0px;
 }
 
+.flash-container {
+  position: absolute;
+  width: 100%;
+}
+
 //hide Signed in/out successfully
-.alert-notice {
-  display: none;
+.alert-notice, .alert-alert {
+  text-align: center;
+  background: rgba(255,255,255,0.3);
+  border-color: rgba(255,255,255,0.5);
+  margin-top: -14px;
+  color: white;
 }
